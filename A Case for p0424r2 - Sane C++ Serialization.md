@@ -246,7 +246,7 @@ The output is, as expected:
 
     {"position":{"x":1,"y":2,"z":3},"radius":4}
 
-A more elaborate implementation (which includes de-serialization) of the idea can be found in [this](https://github.com/ciechowoj/haste-json) repository. It handles the teaser code from the beginning of the post.
+A more elaborate implementation (which includes de-serialization) of the idea can be found in [this](https://github.com/ciechowoj/haste-json) repository. It handles the teaser code from the beginning of the post (the string literals as the template parameters are emulated using an ugly macro, see below).
 
 ### Before You Get Too Excited
 
